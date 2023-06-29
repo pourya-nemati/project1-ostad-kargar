@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#banner{
+    background:linear-gradient(rgba(0,0,0.2,0.2),#250029), url(poster_7f2267af-40a5-4c2c-b937-11b960797481.jpeg);
+    background-size:cover ;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    padding-top: 180px;
+}
+.banner-text h1{
+    font-size: 130px;
+    font-style: italic;
+}
+.banner-text p{
+    font-size: 20px;
+    font-style: italic;
+}
+.banner-btn{
+    margin: 70px auto 0;
+}
+.banner-btn a{
+    width: 150px;
+    text-decoration: none;
+    display: inline-block;
+    margin:0 10px;
+    padding: 12px 0;
+    color: wheat;
+    border: 0.5px solid white;
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+}
+.banner-btn a span{
+    width: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:white ;
+    z-index: -1;
+    transition: 0.5s;
+}
+.banner-btn a:hover span{
+    width: 100%;
+}
+.banner-btn a:hover{
+    color:black;
+}
+#sidenav{
+    text-align: center;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    background:#250029 ;
+    z-index: 2;
+    /* padding-bottom: 20px; */
+}
+nav ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 38px 40px;
+    color:white;
+    text-decoration: none;
+}
+
+/* اشنایی با ما */
+
+#ff{
+    width: 100%;
+    padding: 70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color:#250029 ;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content:'' ;
+    width: 50px;
+    height: 35px;
+    background:linear-gradient(#250029,white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+}
+.title-text h1{
+    font-size: 50px;
+}
+.ff-box{
+    width:80%;
+    margin:auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.ff{
+    flex-basis: 50%;
+}
+.ff-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.ff-img img{
+    width: 70%;
+    border-radius: 20px;
+}
+.ff h1{
+    text-align: center;
+    margin-bottom:10px ;
+    color:#250029 ;
+    font-size: 30px;
+    font-weight: bold;
+}
+.ff p{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#service{
+    width: 100%;
+    padding: 70px 0px;
+    background-color: lightpink;
+}
+.service-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.single-service{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color:white;
+    position: relative;
+}
+.single-service img{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+
+}
+.footr {
+    width: 100%;
+    height: 350px;
+    background: #250029;
+    margin: 20px auto 0;
+}
+.main-footer{
+    margin: 0 auto;
+    width: 1100px;
+}
+.about{
+    width: 350px;
+   height:300px;
+    float: right;
+}
+.about h5 , .social h5 , .access h5{
+    font:16px 'dazhyar' , Tahoma;
+    color: #e2e2e2;
+    padding:5px;
+    margin: 20px auto;
+}
+.about p{
+    font:13px/2 'dazhyar' , Tahoma;
+    color: #e2e2e2;
+    text-align: justify;
+}
+.social{
+    width: 350px;
+    margin: 0 50px;
+    float: right;
+}
+.social ul li{
+    float: right;
+    margin: 10px 2px;
+}
+.social ul li img{
+border-radius: 50%;
+}
+
+.access{
+    width: 300px;
+    float: right;
+}
+.access ul li a{
+    font:13px/2 'dazhyar' , Tahoma;
+    color: #e2e2e2;
+    margin: 2px;
+}
+.access ul li a:hover{
+    color: #4c7d89;
+}
+.footer-bot{
+    width: 1100px;
+    height: 50px;
+    background: #2C3e50;
+    margin: 0 auto;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    clear: both;
+}
+.copyright{
+margin: 15px 20px;
+float: right;
+color: #e2e2e2;
+}
+.footer-bot .ui{
+    margin:15px 20px;
+    float: left;
+    color: #e2e2e2; 
+}
